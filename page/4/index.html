@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ke&#39;s first website</title>
+<link rel="shortcut icon" href="https://cosetteke.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://cosetteke.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://cosetteke.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Ke&#39;s first website - Atom Feed" href="https://cosetteke.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="Here is a place that I record my notes / ideas." />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页｜Home Page
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档｜Archives
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签｜Label
+      </a>
+    
+      <a href="https://cosetteke.github.io/about me" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于 | About
+      </a>
+    
+    <a href="https://cosetteke.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/ban-dao-bu-lu-sai-er-de-di-yi-tian/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          搬到布鲁塞尔的第一天
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2021-01-23</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        小侯说让我记下搬回去的感觉，免得下次做决定的时候又理想主义，小张乖乖听话，写下现在的感受，反正打视频给他他也不回我，哼。就不怕我找别的小哥哥聊天嘛。
+当下的我又有一种，欧洲的夜晚很难熬的感觉，上次有这种感受还是脱单之前。和小侯在一起没什么事...
+      </div>
+      <a href="https://cosetteke.github.io/ban-dao-bu-lu-sai-er-de-di-yi-tian/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/one-and-only-2020/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          One and only 2020
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-30</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        这一年所有的人都好像过得异常的艰难，我还算例外，不咸不淡，填写熊的年末总结时候竟然打出了最高分，也许是填写问卷的当下对生活满意度极高（才不是因为考试还远）。
+January  舍弃
+极简主义这个词汇贯穿了我的一年，及时割舍掉不合适自己的感情...
+      </div>
+      <a href="https://cosetteke.github.io/one-and-only-2020/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/guan-yu-yi-xie-you-yi-si-de-qing-xu-zhai-chao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          关于一些有意思的情绪摘抄
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-08</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        甘え（日语，Amae）:“依赖一个人的好意”，或者“能够心安理得地接受他人的爱”。尽管现代社会里的我们经常感到自己足够独立，但我们依然会感知到这种情绪，它源于一种对他人的深刻的信任感，无论是对搭档、父母还是你自己。
+L'appeldu vi...
+      </div>
+      <a href="https://cosetteke.github.io/guan-yu-yi-xie-you-yi-si-de-qing-xu-zhai-chao/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/guan-yu-xia-xue-qi-de-an-pai/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          关于下学期的安排
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-12-08</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        Dear colleagues and students,
+The end of the first semester is gradually approaching. The past few months have been hect...
+      </div>
+      <a href="https://cosetteke.github.io/guan-yu-xia-xue-qi-de-an-pai/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/zhi-qiu-ren-shi-xiao-zhang-hao-xiang-crush-liao/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          直球人士小张好像crush了
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-11-17</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        嗯 最近总是忍不住傻笑
+生活太美好了
+
+      </div>
+      <a href="https://cosetteke.github.io/zhi-qiu-ren-shi-xiao-zhang-hao-xiang-crush-liao/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://cosetteke.github.io/page/3/" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+      <a href="https://cosetteke.github.io/page/5/" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cosetteke.github.io/media/scripts/main.js"></script>
+</body>
+
+</html>

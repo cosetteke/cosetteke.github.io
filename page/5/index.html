@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Ke&#39;s first website</title>
+<link rel="shortcut icon" href="https://cosetteke.github.io/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://cosetteke.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://cosetteke.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Ke&#39;s first website - Atom Feed" href="https://cosetteke.github.io/atom.xml">
+
+    
+
+  <meta name="description" content="Here is a place that I record my notes / ideas." />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页｜Home Page
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档｜Archives
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签｜Label
+      </a>
+    
+      <a href="https://cosetteke.github.io/about me" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于 | About
+      </a>
+    
+    <a href="https://cosetteke.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/11-2/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          11-2
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-11-02</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        顿感精神贫瘠的原因应该是近期读书太少，出国之后很少好好看书。
+我知道你很渴望和外界有交流，现在的方式不一定高效，不如在这段特殊的时期来自洽，和距离很遥远（地理位置，时间）的人来场对话，直面内心。
+
+      </div>
+      <a href="https://cosetteke.github.io/11-2/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/10-18/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          10-18
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-18</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        迎来了 第一个活粉 给我的文章点赞和关注了 嘿嘿嘿嘿嘿 开心！
+
+      </div>
+      <a href="https://cosetteke.github.io/10-18/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/10-16/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          10-16
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-16</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        在二次Lockdown之前去吃了麦当劳 ;D
+食欲得到极大满足
+该怎么面对即将到来的日子呢
+
+      </div>
+      <a href="https://cosetteke.github.io/10-16/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/the-first-fan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          The first fan
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-15</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        
+今天早上睡醒收到校长的邮件：学校活动按照红色code执行。
+打开简书，意外地发现一条新消息提醒！
+还以为是什么垃圾系统推送， 没想到小张迎来了第一个订阅！
+第一个陌生人订阅呢！
+嘿嘿嘿嘿嘿
+要继续坚持写啦。
+...
+      </div>
+      <a href="https://cosetteke.github.io/the-first-fan/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://cosetteke.github.io/jiao-lu-jiao-lu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          焦虑。焦虑
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2020-10-11</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        眼看着同学秋招投简历做面试题目，不焦虑是不可能的。
+早上学完sklearn的教程随手刷了一篇知乎，今天便乱了节奏。药企在我小小局限的目光下变得不一样，怎么还有SAS Programmar这样的职位，很热门的CRA职位又是什么呢？
+大三时候我...
+      </div>
+      <a href="https://cosetteke.github.io/jiao-lu-jiao-lu/" class="btn">
+        阅读更多
+      </a>
+    </div>
+    
+  </div>
+  
+      </div>
+
+      
+  <div class="my-4 flex justify-between px-4 md:px-0">
+    
+      <a href="https://cosetteke.github.io/page/4/" class="btn btn-white">
+        <i class="ri-arrow-left-line mr-4"></i>
+        上一页
+      </a>
+    
+    
+      <a href="https://cosetteke.github.io/page/6/" class="btn btn-white">
+        下一页
+        <i class="ri-arrow-right-line ml-4"></i>
+      </a>
+    
+  </div>
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cosetteke.github.io/media/scripts/main.js"></script>
+</body>
+
+</html>
